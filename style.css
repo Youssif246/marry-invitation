@@ -197,10 +197,11 @@ img {
 }
 
 .envelope-card-monogram {
-    font-size: 2.25rem;
-    font-weight: 200;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 3rem;
+    font-weight: 400;
     color: var(--color-bronze);
-    letter-spacing: 0.05em;
+    letter-spacing: normal;
 }
 
 .envelope-card-title {
@@ -253,6 +254,7 @@ img {
 }
 
 .seal-initials {
+    font-family: var(--font-primary);
     font-size: 1.15rem;
     font-weight: 300;
     color: var(--color-white);
